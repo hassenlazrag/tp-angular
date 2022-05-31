@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { ManageServersComponent } from './manage-servers/manage-servers.component';
 import { ShortPipePipe } from './short-pipe.pipe';
 import { FilterPipePipe } from './filter-pipe.pipe';
+import { DetailsComponent } from './details/details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ManageServersComponent,
     ShortPipePipe,
-    FilterPipePipe
+    FilterPipePipe,
+    DetailsComponent
   ],
   imports: [
     BrowserModule,
